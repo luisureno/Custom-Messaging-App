@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color: white;
+    user-select: none;
+    font-family: "Jaro", sans-serif;
+    
+    
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+
+img {
+    width: 150px;
+    margin: auto;
+    
+}
+
+#endorsmentMsg {
+    background: #444059;
+    border: 0;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 10px 10px 70px 10px;
+    font-size: 15px;
+    color: white;
+    resize: none;
+}
+
+#greetingFromNTo {
+    display: flex;
+    gap: 10px;
+}
+
+#UserName {
+    background: #444059;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 15px 0px 0px 10px;
+    font-size: 15px;
+    color: white;
+    resize: none;
+}
+
+
+#publishBtn {
+    background: #28A9F1;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 22px;
+    color: #04131C;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#endFont {
+    font-size: 20px;
+}
+
+#ToInput, #FromInput {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+ul li {
+    background: white;
+    color: #1B1924;
+    margin-bottom: 10px;
+    padding: 15px; 
+    
+}
+
+#hiddenUser {
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+}
+
+.chkbox {
+    float: left;
+}

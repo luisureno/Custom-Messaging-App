@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <div class="container">
+            
+            <img src="assets/sn.png">
+            <h1>Snorlax Messenger</h1>
+            <textarea type="text" id="UserName" placeholder="Enter Name"></textarea>
+            <div>
+                <input type="checkbox" id="hiddenUser">
+                <label for="hiddenUser" class="chkbox">Click to go Anynomous</label><br>
+            </div>
+            <textarea type="text" id="endorsmentMsg" placeholder="Write your message here (Double tap to delete)"></textarea>
+            <button id="publishBtn">Send</button>
+            <h3 id="endFont">- Messages -</h3>
+            
+            <ul id="endorsmentBox">
+            </ul>
+            
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
